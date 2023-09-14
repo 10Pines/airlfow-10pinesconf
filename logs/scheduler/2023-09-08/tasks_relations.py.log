@@ -1,0 +1,319 @@
+[2023-09-08T18:38:17.681+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:17.682+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:38:17.687+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:17.686+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:17.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:18.001+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.001+0000] {manager.py:501} INFO - Created Permission View: can edit on DAG:tasks_relations
+[2023-09-08T18:38:18.011+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.011+0000] {manager.py:501} INFO - Created Permission View: can delete on DAG:tasks_relations
+[2023-09-08T18:38:18.026+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.026+0000] {manager.py:501} INFO - Created Permission View: can read on DAG:tasks_relations
+[2023-09-08T18:38:18.040+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.040+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:38:18.047+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.047+0000] {dag.py:2929} INFO - Creating ORM DAG for tasks_relations
+[2023-09-08T18:38:18.055+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:18.055+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:38:18.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.392 seconds
+[2023-09-08T18:38:48.435+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:48.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:38:48.444+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:48.444+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:48.458+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:38:48.589+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:48.589+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:38:48.600+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:38:48.600+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:38:48.610+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.182 seconds
+[2023-09-08T18:39:18.851+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:18.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:39:18.861+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:18.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:19.070+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:19.096+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:19.096+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:39:19.120+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:19.120+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:39:19.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.291 seconds
+[2023-09-08T18:39:49.374+0000] {processor.py:157} INFO - Started process (PID=58) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:49.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:39:49.380+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:49.380+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:49.394+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:39:49.426+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:49.426+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:39:49.441+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:39:49.441+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:39:49.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.083 seconds
+[2023-09-08T18:40:19.756+0000] {processor.py:157} INFO - Started process (PID=67) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:19.759+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:40:19.765+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:19.764+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:19.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:19.806+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:19.806+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:40:19.822+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:19.822+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:40:19.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.089 seconds
+[2023-09-08T18:40:50.141+0000] {processor.py:157} INFO - Started process (PID=76) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:50.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:40:50.147+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:50.147+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:50.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:50.190+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:50.190+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:40:50.206+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:50.206+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:40:50.217+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.081 seconds
+[2023-09-08T18:40:58.279+0000] {processor.py:157} INFO - Started process (PID=78) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:58.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:40:58.286+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:58.285+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:58.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:40:58.409+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:58.409+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:40:58.423+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:40:58.423+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:40:58.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.165 seconds
+[2023-09-08T18:41:28.796+0000] {processor.py:157} INFO - Started process (PID=87) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:28.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:41:28.806+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:28.805+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:28.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:28.854+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:28.854+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:41:28.867+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:28.867+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:41:28.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.087 seconds
+[2023-09-08T18:41:59.320+0000] {processor.py:157} INFO - Started process (PID=96) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:59.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:41:59.330+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:59.329+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:59.346+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:41:59.370+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:59.370+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:41:59.383+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:41:59.383+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:41:59.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.080 seconds
+[2023-09-08T18:42:29.844+0000] {processor.py:157} INFO - Started process (PID=105) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:42:29.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:42:29.853+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:42:29.852+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:42:29.871+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:42:29.896+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:42:29.896+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:42:29.910+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:42:29.909+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:42:29.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.082 seconds
+[2023-09-08T18:43:00.287+0000] {processor.py:157} INFO - Started process (PID=114) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:00.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:43:00.295+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:00.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:00.310+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:00.333+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:00.333+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:43:00.345+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:00.345+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:43:00.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.075 seconds
+[2023-09-08T18:43:30.812+0000] {processor.py:157} INFO - Started process (PID=123) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:30.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:43:30.819+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:30.819+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:30.838+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:43:30.862+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:30.861+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:43:30.875+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:43:30.875+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:43:30.885+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.081 seconds
+[2023-09-08T18:44:01.279+0000] {processor.py:157} INFO - Started process (PID=132) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:01.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:44:01.288+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:01.287+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:01.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:01.324+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:01.324+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:44:01.336+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:01.336+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:44:01.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.073 seconds
+[2023-09-08T18:44:31.696+0000] {processor.py:157} INFO - Started process (PID=140) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:31.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:44:31.705+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:31.705+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:31.722+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:44:31.752+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:31.752+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:44:31.768+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:44:31.768+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:44:31.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.089 seconds
+[2023-09-08T18:45:02.159+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:02.163+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:45:02.169+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:02.168+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:02.184+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:02.211+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:02.210+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:45:02.223+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:02.223+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:45:02.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.080 seconds
+[2023-09-08T18:45:32.592+0000] {processor.py:157} INFO - Started process (PID=158) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:32.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:45:32.598+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:32.597+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:32.609+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:45:32.635+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:32.635+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:45:32.648+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:45:32.648+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:45:32.658+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.071 seconds
+[2023-09-08T18:46:03.095+0000] {processor.py:157} INFO - Started process (PID=166) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:03.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:46:03.101+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:03.100+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:03.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:03.142+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:03.142+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:46:03.156+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:03.156+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:46:03.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.075 seconds
+[2023-09-08T18:46:33.630+0000] {processor.py:157} INFO - Started process (PID=176) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:33.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:46:33.641+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:33.640+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:33.657+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:46:33.683+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:33.682+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:46:33.696+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:46:33.696+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:46:33.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.083 seconds
+[2023-09-08T18:47:04.105+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:04.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:47:04.112+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:04.111+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:04.129+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:04.154+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:04.154+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:47:04.167+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:04.167+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:47:04.176+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.078 seconds
+[2023-09-08T18:47:34.584+0000] {processor.py:157} INFO - Started process (PID=194) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:34.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:47:34.592+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:34.591+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:34.608+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:47:34.632+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:34.632+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:47:34.645+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:47:34.645+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:47:34.655+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.079 seconds
+[2023-09-08T18:48:05.113+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:05.116+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:48:05.121+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:05.120+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:05.139+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:05.165+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:05.165+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:48:05.178+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:05.178+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:48:05.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.082 seconds
+[2023-09-08T18:48:35.654+0000] {processor.py:157} INFO - Started process (PID=212) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:35.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:48:35.664+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:35.663+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:35.679+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:48:35.706+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:35.706+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:48:35.721+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:48:35.721+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:48:35.732+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.085 seconds
+[2023-09-08T18:49:06.133+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:06.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:49:06.138+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:06.138+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:06.152+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:06.184+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:06.183+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:49:06.200+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:06.200+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:49:06.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.085 seconds
+[2023-09-08T18:49:36.617+0000] {processor.py:157} INFO - Started process (PID=230) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:36.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:49:36.625+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:36.624+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:36.638+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:49:36.663+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:36.663+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:49:36.677+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:49:36.677+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:49:36.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.078 seconds
+[2023-09-08T18:50:07.135+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:07.137+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:50:07.140+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:07.140+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:07.153+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:07.184+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:07.184+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:50:07.203+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:07.203+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:50:07.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.086 seconds
+[2023-09-08T18:50:37.626+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:37.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:50:37.633+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:37.632+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:37.647+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:50:37.673+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:37.673+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:50:37.686+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:50:37.686+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:50:37.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.079 seconds
+[2023-09-08T18:51:08.077+0000] {processor.py:157} INFO - Started process (PID=256) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:08.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:51:08.086+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:08.085+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:08.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:08.124+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:08.124+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:51:08.136+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:08.136+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:51:08.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.076 seconds
+[2023-09-08T18:51:38.545+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:38.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:51:38.552+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:38.551+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:38.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:51:38.591+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:38.591+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:51:38.604+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:51:38.604+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:51:38.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.078 seconds
+[2023-09-08T18:52:09.007+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:09.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:52:09.014+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:09.014+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:09.030+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:09.059+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:09.059+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:52:09.075+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:09.075+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:52:09.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.086 seconds
+[2023-09-08T18:52:39.534+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:39.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:52:39.542+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:39.542+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:39.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:52:39.585+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:39.584+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:52:39.598+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:52:39.598+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:52:39.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.081 seconds
+[2023-09-08T18:53:09.991+0000] {processor.py:157} INFO - Started process (PID=292) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:09.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:53:09.999+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:09.998+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:10.014+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:10.037+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:10.037+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:53:10.049+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:10.049+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:53:10.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.075 seconds
+[2023-09-08T18:53:40.554+0000] {processor.py:157} INFO - Started process (PID=301) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:40.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:53:40.563+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:40.562+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:40.581+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:53:40.607+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:40.607+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:53:40.621+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:53:40.621+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:53:40.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.085 seconds
+[2023-09-08T18:54:11.012+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:11.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:54:11.020+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:11.020+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:11.038+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:11.069+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:11.069+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:54:11.083+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:11.083+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:54:11.094+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.089 seconds
+[2023-09-08T18:54:41.498+0000] {processor.py:157} INFO - Started process (PID=318) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:41.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:54:41.506+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:41.505+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:41.522+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:54:41.547+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:41.546+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:54:41.559+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:54:41.559+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:54:41.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.078 seconds
+[2023-09-08T18:55:11.935+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:11.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:55:11.945+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:11.944+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:11.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:11.990+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:11.990+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:55:12.003+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:12.003+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:55:12.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.087 seconds
+[2023-09-08T18:55:42.388+0000] {processor.py:157} INFO - Started process (PID=337) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:42.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:55:42.396+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:42.395+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:42.411+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:55:42.438+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:42.438+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:55:42.450+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:55:42.450+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:55:42.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.079 seconds
+[2023-09-08T18:56:12.828+0000] {processor.py:157} INFO - Started process (PID=346) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:12.831+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:56:12.837+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:12.836+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:12.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:12.879+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:12.879+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:56:12.891+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:12.891+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:56:12.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.079 seconds
+[2023-09-08T18:56:43.279+0000] {processor.py:157} INFO - Started process (PID=355) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:43.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:56:43.283+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:43.282+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:43.291+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:56:43.312+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:43.312+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:56:43.324+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:56:43.324+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:56:43.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.058 seconds
+[2023-09-08T18:57:13.789+0000] {processor.py:157} INFO - Started process (PID=363) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:13.792+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:57:13.799+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:13.798+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:13.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:13.838+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:13.838+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:57:13.852+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:13.851+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:57:13.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.082 seconds
+[2023-09-08T18:57:44.291+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:44.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:57:44.298+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:44.298+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:44.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:57:44.340+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:44.340+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:57:44.356+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:57:44.356+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:57:44.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.085 seconds
+[2023-09-08T18:58:14.815+0000] {processor.py:157} INFO - Started process (PID=382) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:14.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:58:14.823+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:14.822+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:14.838+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:14.868+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:14.868+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:58:14.882+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:14.882+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:58:14.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.090 seconds
+[2023-09-08T18:58:45.338+0000] {processor.py:157} INFO - Started process (PID=399) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:45.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T18:58:45.344+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:45.344+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:45.357+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T18:58:45.378+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:45.378+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T18:58:45.391+0000] {logging_mixin.py:151} INFO - [2023-09-08T18:58:45.391+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T18:58:45.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.071 seconds
+[2023-09-08T19:00:49.665+0000] {processor.py:157} INFO - Started process (PID=400) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:00:49.668+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T19:00:49.679+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:00:49.678+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:00:49.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:00:49.934+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:00:49.933+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T19:00:49.992+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:00:49.992+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T19:00:50.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.454 seconds
+[2023-09-08T19:01:20.619+0000] {processor.py:157} INFO - Started process (PID=410) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:20.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T19:01:20.634+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:20.632+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:20.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:20.701+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:20.700+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T19:01:20.718+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:20.718+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T19:01:20.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.122 seconds
+[2023-09-08T19:01:50.995+0000] {processor.py:157} INFO - Started process (PID=419) to work on /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:50.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks_relations.py for tasks to queue
+[2023-09-08T19:01:51.001+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:51.001+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:51.015+0000] {processor.py:839} INFO - DAG(s) dict_keys(['tasks_relations']) retrieved from /opt/airflow/dags/tasks_relations.py
+[2023-09-08T19:01:51.043+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:51.043+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-08T19:01:51.057+0000] {logging_mixin.py:151} INFO - [2023-09-08T19:01:51.057+0000] {dag.py:3677} INFO - Setting next_dagrun for tasks_relations to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-09-08T19:01:51.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks_relations.py took 0.081 seconds

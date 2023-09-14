@@ -1,0 +1,28 @@
+[2023-09-05T15:25:05.357+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-09-05T15:25:05.365+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-09-05T15:25:05.366+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-05T15:25:05.378+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): say_hello> on 2023-02-17 00:00:00+00:00
+[2023-09-05T15:25:05.386+0000] {standard_task_runner.py:57} INFO - Started process 378 to run task
+[2023-09-05T15:25:05.394+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'say_hello', 'scheduled__2023-02-17T00:00:00+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/tasks_relations.py', '--cfg-path', '/tmp/tmpy02d1q7u']
+[2023-09-05T15:25:05.401+0000] {standard_task_runner.py:85} INFO - Job 151: Subtask say_hello
+[2023-09-05T15:25:05.503+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [running]> on host ca474790e981
+[2023-09-05T15:25:05.650+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='say_hello' AIRFLOW_CTX_EXECUTION_DATE='2023-02-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-02-17T00:00:00+00:00'
+[2023-09-05T15:25:05.653+0000] {logging_mixin.py:151} INFO - hello ***
+[2023-09-05T15:25:05.654+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-05T15:25:05.694+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=say_hello, execution_date=20230217T000000, start_date=20230905T152505, end_date=20230905T152505
+[2023-09-05T15:25:05.816+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-05T15:25:05.887+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-09-12T17:34:22.295+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-09-12T17:34:22.308+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-09-12T17:34:22.312+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-12T17:34:22.326+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): say_hello> on 2023-02-17 00:00:00+00:00
+[2023-09-12T17:34:22.332+0000] {standard_task_runner.py:57} INFO - Started process 980 to run task
+[2023-09-12T17:34:22.347+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'say_hello', 'scheduled__2023-02-17T00:00:00+00:00', '--job-id', '431', '--raw', '--subdir', 'DAGS_FOLDER/2_tasks_relations.py', '--cfg-path', '/tmp/tmp4i8a3xer']
+[2023-09-12T17:34:22.351+0000] {standard_task_runner.py:85} INFO - Job 431: Subtask say_hello
+[2023-09-12T17:34:22.416+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.say_hello scheduled__2023-02-17T00:00:00+00:00 [running]> on host 0ab7970e0956
+[2023-09-12T17:34:22.525+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='say_hello' AIRFLOW_CTX_EXECUTION_DATE='2023-02-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-02-17T00:00:00+00:00'
+[2023-09-12T17:34:22.526+0000] {logging_mixin.py:151} INFO - hello world
+[2023-09-12T17:34:22.527+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-12T17:34:22.534+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=say_hello, execution_date=20230217T000000, start_date=20230912T173422, end_date=20230912T173422
+[2023-09-12T17:34:22.552+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-12T17:34:22.577+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

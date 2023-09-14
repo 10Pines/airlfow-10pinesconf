@@ -1,0 +1,28 @@
+[2023-09-05T15:29:07.757+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [queued]>
+[2023-09-05T15:29:07.887+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [queued]>
+[2023-09-05T15:29:07.912+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-05T15:29:07.986+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): or_that_way> on 2023-06-12 00:00:00+00:00
+[2023-09-05T15:29:08.004+0000] {standard_task_runner.py:57} INFO - Started process 1234 to run task
+[2023-09-05T15:29:08.018+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'or_that_way', 'scheduled__2023-06-12T00:00:00+00:00', '--job-id', '549', '--raw', '--subdir', 'DAGS_FOLDER/tasks_relations.py', '--cfg-path', '/tmp/tmphquipcy5']
+[2023-09-05T15:29:08.066+0000] {standard_task_runner.py:85} INFO - Job 549: Subtask or_that_way
+[2023-09-05T15:29:08.470+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [running]> on host ca474790e981
+[2023-09-05T15:29:09.065+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='or_that_way' AIRFLOW_CTX_EXECUTION_DATE='2023-06-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-12T00:00:00+00:00'
+[2023-09-05T15:29:09.113+0000] {logging_mixin.py:151} INFO - NO NO, THAT WAY WAY!!!
+[2023-09-05T15:29:09.115+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-05T15:29:09.171+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=or_that_way, execution_date=20230612T000000, start_date=20230905T152907, end_date=20230905T152909
+[2023-09-05T15:29:09.306+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-05T15:29:09.361+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-09-12T17:36:36.945+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [queued]>
+[2023-09-12T17:36:37.033+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [queued]>
+[2023-09-12T17:36:37.049+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-12T17:36:37.177+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): or_that_way> on 2023-06-12 00:00:00+00:00
+[2023-09-12T17:36:37.232+0000] {standard_task_runner.py:57} INFO - Started process 2706 to run task
+[2023-09-12T17:36:37.316+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'or_that_way', 'scheduled__2023-06-12T00:00:00+00:00', '--job-id', '1280', '--raw', '--subdir', 'DAGS_FOLDER/2_tasks_relations.py', '--cfg-path', '/tmp/tmp_3etp1rv']
+[2023-09-12T17:36:37.337+0000] {standard_task_runner.py:85} INFO - Job 1280: Subtask or_that_way
+[2023-09-12T17:36:37.684+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.or_that_way scheduled__2023-06-12T00:00:00+00:00 [running]> on host 0ab7970e0956
+[2023-09-12T17:36:38.110+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='or_that_way' AIRFLOW_CTX_EXECUTION_DATE='2023-06-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-12T00:00:00+00:00'
+[2023-09-12T17:36:38.115+0000] {logging_mixin.py:151} INFO - NO NO, THAT WAY WAY!!!
+[2023-09-12T17:36:38.118+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-12T17:36:38.154+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=or_that_way, execution_date=20230612T000000, start_date=20230912T173636, end_date=20230912T173638
+[2023-09-12T17:36:38.247+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-12T17:36:38.313+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

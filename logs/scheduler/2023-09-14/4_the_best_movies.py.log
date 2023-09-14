@@ -1,0 +1,242 @@
+[2023-09-14T11:43:16.178+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:16.191+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:43:16.222+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:43:16.200+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:17.359+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:43:17.355+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:43:17.360+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:17.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 1.222 seconds
+[2023-09-14T11:43:47.794+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:47.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:43:47.835+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:43:47.815+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:49.890+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:43:49.885+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:43:49.891+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:43:49.899+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 2.138 seconds
+[2023-09-14T11:44:20.028+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:20.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:44:20.031+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:44:20.030+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:20.774+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:44:20.766+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:44:20.775+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:20.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.756 seconds
+[2023-09-14T11:44:50.945+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:50.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:44:50.949+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:44:50.949+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:51.297+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:44:51.295+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:44:51.297+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:44:51.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.364 seconds
+[2023-09-14T11:45:22.169+0000] {processor.py:157} INFO - Started process (PID=78) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:22.180+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:45:22.251+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:45:22.241+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:23.079+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:45:23.074+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:45:23.080+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:23.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 1.013 seconds
+[2023-09-14T11:45:53.271+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:53.275+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:45:53.280+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:45:53.280+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:53.621+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:45:53.618+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:45:53.622+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:45:53.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.366 seconds
+[2023-09-14T11:46:23.873+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:23.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:46:23.877+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:46:23.877+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:24.116+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:46:24.114+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:46:24.116+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:24.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.253 seconds
+[2023-09-14T11:46:54.404+0000] {processor.py:157} INFO - Started process (PID=114) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:54.406+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:46:54.410+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:46:54.410+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:54.645+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:46:54.643+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:46:54.646+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:46:54.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.252 seconds
+[2023-09-14T11:47:25.024+0000] {processor.py:157} INFO - Started process (PID=127) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:25.025+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:47:25.027+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:47:25.027+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:25.224+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:47:25.222+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:47:25.224+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:25.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.208 seconds
+[2023-09-14T11:47:55.523+0000] {processor.py:157} INFO - Started process (PID=139) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:55.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:47:55.527+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:47:55.526+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:55.731+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:47:55.729+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:47:55.731+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:47:55.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.216 seconds
+[2023-09-14T11:48:26.118+0000] {processor.py:157} INFO - Started process (PID=151) to work on /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:48:26.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_the_best_movies.py for tasks to queue
+[2023-09-14T11:48:26.121+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:48:26.121+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:48:26.326+0000] {logging_mixin.py:151} INFO - [2023-09-14T11:48:26.324+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/4_the_best_movies.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/4_the_best_movies.py", line 8, in <module>
+    connection = postgres_hook.get_sqlalchemy_engine()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 199, in get_sqlalchemy_engine
+    return create_engine(self.get_uri(), **engine_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_uri
+    conn = self.get_connection(getattr(self, self.conn_name_attr))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2023-09-14T11:48:26.326+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/4_the_best_movies.py
+[2023-09-14T11:48:26.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_the_best_movies.py took 0.216 seconds

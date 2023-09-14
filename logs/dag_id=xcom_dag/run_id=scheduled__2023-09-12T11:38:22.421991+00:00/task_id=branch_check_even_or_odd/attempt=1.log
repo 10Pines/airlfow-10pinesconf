@@ -1,0 +1,16 @@
+[2023-09-13T11:38:24.774+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_dag.branch_check_even_or_odd scheduled__2023-09-12T11:38:22.421991+00:00 [queued]>
+[2023-09-13T11:38:24.779+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_dag.branch_check_even_or_odd scheduled__2023-09-12T11:38:22.421991+00:00 [queued]>
+[2023-09-13T11:38:24.779+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-13T11:38:24.787+0000] {taskinstance.py:1382} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch_check_even_or_odd> on 2023-09-12 11:38:22.421991+00:00
+[2023-09-13T11:38:24.790+0000] {standard_task_runner.py:57} INFO - Started process 195 to run task
+[2023-09-13T11:38:24.792+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'branch_check_even_or_odd', 'scheduled__2023-09-12T11:38:22.421991+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/3_xcom.py', '--cfg-path', '/tmp/tmpqt1kffhb']
+[2023-09-13T11:38:24.794+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask branch_check_even_or_odd
+[2023-09-13T11:38:24.831+0000] {task_command.py:415} INFO - Running <TaskInstance: xcom_dag.branch_check_even_or_odd scheduled__2023-09-12T11:38:22.421991+00:00 [running]> on host a7929249212e
+[2023-09-13T11:38:24.883+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xcom_dag' AIRFLOW_CTX_TASK_ID='branch_check_even_or_odd' AIRFLOW_CTX_EXECUTION_DATE='2023-09-12T11:38:22.421991+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-12T11:38:22.421991+00:00'
+[2023-09-13T11:38:24.893+0000] {python.py:194} INFO - Done. Returned value was: print_odd
+[2023-09-13T11:38:24.894+0000] {python.py:227} INFO - Branch callable return print_odd
+[2023-09-13T11:38:24.894+0000] {skipmixin.py:173} INFO - Following branch print_odd
+[2023-09-13T11:38:24.911+0000] {skipmixin.py:239} INFO - Skipping tasks [('print_even', -1)]
+[2023-09-13T11:38:24.937+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=branch_check_even_or_odd, execution_date=20230912T113822, start_date=20230913T113824, end_date=20230913T113824
+[2023-09-13T11:38:24.966+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-13T11:38:24.987+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

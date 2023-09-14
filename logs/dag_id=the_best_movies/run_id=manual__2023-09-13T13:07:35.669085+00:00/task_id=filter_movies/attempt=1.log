@@ -1,0 +1,26 @@
+[2023-09-13T13:07:36.660+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: the_best_movies.filter_movies manual__2023-09-13T13:07:35.669085+00:00 [queued]>
+[2023-09-13T13:07:36.665+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: the_best_movies.filter_movies manual__2023-09-13T13:07:35.669085+00:00 [queued]>
+[2023-09-13T13:07:36.665+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-13T13:07:36.671+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): filter_movies> on 2023-09-13 13:07:35.669085+00:00
+[2023-09-13T13:07:36.674+0000] {standard_task_runner.py:57} INFO - Started process 111 to run task
+[2023-09-13T13:07:36.677+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'the_best_movies', 'filter_movies', 'manual__2023-09-13T13:07:35.669085+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/4_the_best_movies.py', '--cfg-path', '/tmp/tmpgi0oqvry']
+[2023-09-13T13:07:36.679+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask filter_movies
+[2023-09-13T13:07:36.827+0000] {task_command.py:415} INFO - Running <TaskInstance: the_best_movies.filter_movies manual__2023-09-13T13:07:35.669085+00:00 [running]> on host 7f15b43741c2
+[2023-09-13T13:07:36.859+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='the_best_movies' AIRFLOW_CTX_TASK_ID='filter_movies' AIRFLOW_CTX_EXECUTION_DATE='2023-09-13T13:07:35.669085+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-13T13:07:35.669085+00:00'
+[2023-09-13T13:07:36.865+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/4_the_best_movies.py", line 35, in filter_movies
+    task_instance.xcom_push(best_rated_tmp, key="movies")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: xcom_push() got multiple values for argument 'key'
+[2023-09-13T13:07:36.869+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=the_best_movies, task_id=filter_movies, execution_date=20230913T130735, start_date=20230913T130736, end_date=20230913T130736
+[2023-09-13T13:07:36.875+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 5 for task filter_movies (xcom_push() got multiple values for argument 'key'; 111)
+[2023-09-13T13:07:36.895+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-13T13:07:37.008+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

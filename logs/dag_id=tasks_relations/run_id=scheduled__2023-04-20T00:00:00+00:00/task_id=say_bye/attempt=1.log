@@ -1,0 +1,28 @@
+[2023-09-05T15:26:30.326+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [queued]>
+[2023-09-05T15:26:30.374+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [queued]>
+[2023-09-05T15:26:30.385+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-05T15:26:30.514+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): say_bye> on 2023-04-20 00:00:00+00:00
+[2023-09-05T15:26:30.544+0000] {standard_task_runner.py:57} INFO - Started process 798 to run task
+[2023-09-05T15:26:30.588+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'say_bye', 'scheduled__2023-04-20T00:00:00+00:00', '--job-id', '351', '--raw', '--subdir', 'DAGS_FOLDER/tasks_relations.py', '--cfg-path', '/tmp/tmp1cyo8qzx']
+[2023-09-05T15:26:30.600+0000] {standard_task_runner.py:85} INFO - Job 351: Subtask say_bye
+[2023-09-05T15:26:31.025+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [running]> on host ca474790e981
+[2023-09-05T15:26:32.301+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='say_bye' AIRFLOW_CTX_EXECUTION_DATE='2023-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-20T00:00:00+00:00'
+[2023-09-05T15:26:32.328+0000] {logging_mixin.py:151} INFO - goodbye ***
+[2023-09-05T15:26:32.334+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-05T15:26:32.407+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=say_bye, execution_date=20230420T000000, start_date=20230905T152630, end_date=20230905T152632
+[2023-09-05T15:26:32.716+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-05T15:26:32.825+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-09-12T17:35:27.568+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [queued]>
+[2023-09-12T17:35:27.611+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [queued]>
+[2023-09-12T17:35:27.614+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-09-12T17:35:27.672+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): say_bye> on 2023-04-20 00:00:00+00:00
+[2023-09-12T17:35:27.704+0000] {standard_task_runner.py:57} INFO - Started process 1895 to run task
+[2023-09-12T17:35:27.730+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'tasks_relations', 'say_bye', 'scheduled__2023-04-20T00:00:00+00:00', '--job-id', '877', '--raw', '--subdir', 'DAGS_FOLDER/2_tasks_relations.py', '--cfg-path', '/tmp/tmpok3vyg2y']
+[2023-09-12T17:35:27.754+0000] {standard_task_runner.py:85} INFO - Job 877: Subtask say_bye
+[2023-09-12T17:35:27.976+0000] {task_command.py:415} INFO - Running <TaskInstance: tasks_relations.say_bye scheduled__2023-04-20T00:00:00+00:00 [running]> on host 0ab7970e0956
+[2023-09-12T17:35:28.395+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tasks_relations' AIRFLOW_CTX_TASK_ID='say_bye' AIRFLOW_CTX_EXECUTION_DATE='2023-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-20T00:00:00+00:00'
+[2023-09-12T17:35:28.402+0000] {logging_mixin.py:151} INFO - goodbye world
+[2023-09-12T17:35:28.410+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-12T17:35:28.482+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tasks_relations, task_id=say_bye, execution_date=20230420T000000, start_date=20230912T173527, end_date=20230912T173528
+[2023-09-12T17:35:28.626+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-12T17:35:28.692+0000] {taskinstance.py:2784} INFO - 2 downstream tasks scheduled from follow-on schedule check
