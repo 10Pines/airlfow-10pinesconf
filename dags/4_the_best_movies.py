@@ -1,5 +1,8 @@
 from datetime import datetime
 from airflow.decorators import dag, task
+from airflow.models import XCom
+from airflow.settings import Session
+from airflow.utils.session import provide_session
 from pandas import DataFrame, read_csv, read_json, read_sql_query
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
@@ -10,6 +13,12 @@ connection = postgres_hook.get_sqlalchemy_engine()
 # constants
 MOVIES_INPUT_CSV_FILE = r"./dags/data/movies.csv"
 MOVIES_OUTPUT_CSV_FILE = r"./dags/output/movies.csv"
+
+# TODO: Bonus track
+# @provide_session
+# def cleanup_xcom(context, session: Session | None = None):
+#     dag_id = context["task"].dag_id
+#     session and session.query(XCom).filter(XCom.dag_id == dag_id).delete()
 
 @dag(start_date=datetime(2023, 9, 1), catchup=False)
 def the_best_movies():

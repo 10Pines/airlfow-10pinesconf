@@ -2,6 +2,15 @@ from airflow.decorators import task, dag
 from datetime import datetime
 import random
 
+from airflow.models import XCom
+from airflow.settings import Session
+from airflow.utils.session import provide_session
+
+# TODO: Bonus track
+# @provide_session
+# def cleanup_xcom(context, session: Session | None = None):
+#     dag_id = context["task"].dag_id
+#     session and session.query(XCom).filter(XCom.dag_id == dag_id).delete()
 
 @dag(start_date=datetime(2023, 9, 1), catchup=False)
 def xcom_dag():
