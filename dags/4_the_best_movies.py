@@ -60,7 +60,7 @@ def the_best_movies():
             method="multi",
         )
 
-    @task
+    @task()
     def read_movies():
         # Read movies from database
         query_movies = read_sql_query(
